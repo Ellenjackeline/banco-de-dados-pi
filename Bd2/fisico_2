@@ -1,8 +1,8 @@
-/* Lógico_1: */
+/* LÃ³gico_1: */
 
 CREATE TABLE Empreendedor (
     id_empr integer PRIMARY KEY,
-    nome_completo varchar,
+    nome_completo varchar (255),
     razao_social varchar,
     data_nasc date,
     endereco varchar,
